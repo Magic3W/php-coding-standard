@@ -1,0 +1,22 @@
+{
+    "name": "magic3w/php-coding-standard",
+    "description": "Magic3W Coding standard for PHP projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "César de la Cal Bretschneider",
+            "email": "cesar@magic3w.com"
+        }
+    ],
+    "repositories":
+	[
+			{
+				"type": "vcs",
+				"url": "https://github.com/Csardelacal/PHP_Codesniffer"
+			}
+	],
+    "require": {
+        "squizlabs/php_codesniffer": "dev-dev/scope-indent-blank-lines"
+    }
+}
